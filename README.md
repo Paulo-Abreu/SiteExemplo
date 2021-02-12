@@ -1,2 +1,2 @@
 # SiteExemplo
- clone de site 
+ Repositorio criado para um site clone
