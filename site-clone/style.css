@@ -1,58 +1,88 @@
+.main 
+{
+    width: 75%;
+    margin: auto;
+}
+.menu
+{
+    display: flex;
+    justify-content: space-between;
+}
+a:link{
+    text-decoration:none;
+    color:black;
+}
+.options
+{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.options li
+{
+    padding: 25px;
+    list-style: none;
+    
+}
+#navbar {
+    color: #000;
+}
+.largeText{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(38, 39, 49);
+    font-family: Arial, Helvetica, sans-serif;
 
-        .main 
-        {
-            width: 75%;
-            margin: auto;
-        }
-        .menu
-        {
-	        display: flex;
-            justify-content: space-between;
-            background: grey;
-        }
-        a:link{
-            text-decoration:none;
-            color:black;
-        }
-        .options
-        {
-            display: flex;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        .options li
-        {
-            padding: 25px;
-            list-style: none;
-            
-        }
-        #navbar {
-            color: #000;
-        }
-        .largeText{
-            text-align: center;
-            font-size: 30px;
-            color: rgb(38, 39, 49);
-            font-family: Arial, Helvetica, sans-serif;
+     
+}
+.smallText h3{
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    padding: 30px;
+    position: relative;
+    top: -100px;
 
-             
-        }
-        .smallText h3{
-            font-weight: lighter;
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
-            width: 600px;
-            margin: auto;
-
-        }
-        .btn{
-            margin: auto;
-            width: 600px;
-        }
-        .content-image img{
-           
-            max-width:1000px;
-            width: auto;
-
-
-        }
-        
+}
+#btnMenu{
+    margin: auto;
+    width: 150px;
+    background-color: rgb(18, 65, 153);
+    border-radius: 5px;
+}
+#btnText{
+    margin: auto;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(18, 65, 153);
+    border-radius: 5px;
+    position: relative;
+    top: -100px;
+}
+.content-image img{ 
+    max-width:1000px;
+    width: auto;
+}
+.brand-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 50px;
+}
+#imgLogo {
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+}
+.decoration{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    height: 10px;
+}
+#imgDecoration{
+    position: relative;
+    left: 2025px;
+}
